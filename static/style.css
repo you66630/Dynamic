@@ -1,0 +1,226 @@
+* {
+  transition: all 50ms;
+}
+
+:root {
+  --primary-color: #ffa200;
+  --black: black;
+  --white: white;
+}
+
+body.darkmode {
+  --primary-color: #ffa200;
+  --black: white;
+  --white: black;
+}
+
+body {
+  background-color: var(--white);
+}
+
+.logo {
+  text-decoration: none;
+  top: 0px;
+  left: 15px;
+  height: 40px;
+  width: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--white);
+  border: 2px solid var(--black);
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.home {
+  color: var(--primary-color);
+  position: absolute;
+  top: 15px;
+  left: 650px;
+  height: 40px;
+  width: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+svg {
+  fill: var(--primary-color);
+}
+
+.discover {
+  color: var(--primary-color);
+  position: absolute;
+  top: 15px;
+  left: 750px;
+  height: 40px;
+  width: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.friends {
+  color: var(--primary-color);
+  position: absolute;
+  top: 15px;
+  left: 850px;
+  height: 40px;
+  width: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.user {
+  color: var(--primary-color);
+  position: absolute;
+  top: 15px;
+  left: 950px;
+  height: 40px;
+  width: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.asidebar {
+  background-color: var(--white);
+  position: fixed;
+  top: 62px;
+  left: 0;
+  border: 2px solid var(--black);
+  border-left: none;
+  border-bottom: none;
+  width: 200px;
+  height: calc(100vh - 30px);
+}
+.asidebar .logo-side,
+.asidebar .home-side,
+.asidebar .discover-side,
+.asidebar .friends-side,
+.asidebar .user-side {
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--primary-color);
+  font-size: 24px;
+  display: inline;
+}
+
+.under-div {
+  position: fixed;
+  background: var(--white);
+  border-radius: 15px;
+  border: 2px solid var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.under-dev {
+  font-size: 50px;
+  color: var(--black);
+}
+
+.this {
+  color: var(--black);
+  font-size: 50px;
+}
+
+.ok {
+  padding: 15px 40px;
+  border-radius: 15px;
+  border: 2px solid var(--black);
+  cursor: pointer;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.Post {
+  position: fixed;
+  border-radius: 5px;
+  border: 2px solid var(--black);
+  background-color: var(--white);
+  padding: 25px 20px;
+  width: 1240px;
+  left: 300px;
+  top: 100px;
+}
+
+.Post_submit {
+  margin-top: 15px;
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: 2px solid var(--black);
+  cursor: pointer;
+  color: var(--black);
+  background: var(--white);
+}
+
+textarea {
+  resize: none;
+  border: 2px solid var(--black);
+  font-size: 24px;
+  background-color: var(--white);
+}
+
+textarea:focus {
+  border: 1px double var(--black);
+}
+
+.login-btn {
+  position: absolute;
+  right: 0px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.Posted {
+  position: relative;
+  border-radius: 5px;
+  border: 2px solid var(--black);
+  background-color: var(--white);
+  padding: 15px 40px;
+  width: 1200px;
+  left: 290px;
+  top: 400px;
+}
+
+.User {
+  width: 1220px;
+  height: 50px;
+  border: 2px solid var(--black);
+  background-color: var(--white);
+}
+
+#DarkBtn {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  top: 13px;
+  background-color: var(--white);
+  border: 2px solid var(--black);
+  color: var(--black);
+  border-radius: 5px;
+  padding: 10px 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

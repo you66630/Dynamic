@@ -1,0 +1,9 @@
+<svg aria-label="Profile picture actions" class="x3ajldb" data-visualcompletion="ignore-dynamic" role="img" style="height: 168px; width: 168px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <mask id="profileMask">
+    <circle cx="84" cy="84" fill="white" r="84"></circle>
+  </mask>
+  <g mask="url(#profileMask)">
+    <image x="0" y="0" height="100%" preserveAspectRatio="xMidYMid slice" width="100%" xlink:href="https://scontent.fcai20-6.fna.fbcdn.net/v/t39.30808-1/391748946_844319107368324_6895088311143308035_n.jpg?stp=dst-jpg_s200x200&amp;_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=0ecb9b&amp;_nc_ohc=qpyo5Yjz9UUQ7kNvgE_GdZw&amp;_nc_zt=24&amp;_nc_ht=scontent.fcai20-6.fna&amp;_nc_gid=AGkUQA0ZmgKz_kwCKR0kmTD&amp;oh=00_AYBoJg23ByELXLKep4cOIeK1EEY84urMIOz_1tSPniKCnQ&amp;oe=673D94CB" style="height: 168px; width: 168px;"></image>
+    <circle class="xbh8q5q x1pwv2dq xvlca1e" cx="84" cy="84" r="84"></circle>
+  </g>
+</svg>
