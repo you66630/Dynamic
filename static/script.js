@@ -7,6 +7,7 @@ function trueDarkMode(isDark) {
     } else {
         document.body.classList.remove("darkmode");
         DarkBtn.innerHTML = "Dark Mode";
+
     }
 }
 
