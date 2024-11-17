@@ -179,6 +179,7 @@ textarea{
   resize: none;
   border: 2px solid var(--black);
   font-size: 24px;
+  color: var(--black);
   background-color: var(--white);
 }
 textarea:focus{
@@ -194,18 +195,20 @@ textarea:focus{
   position: relative;
   border-radius: 5px;
   border: 2px solid var(--black);
-
+  color: var(--black);
   background-color: var(--white);
   padding: 15px 40px;
   width: 1200px;
   left: 290px;
   top: 400px;
+  margin-top: 5px;
 }
 .User{
   width: 1220px;
   height: 50px;
   border:2px solid var(--black);
-
+  color: var(--black);
+  font-size: 18px;
   background-color: var(--white);
 }
 #DarkBtn{
